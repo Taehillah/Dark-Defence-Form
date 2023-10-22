@@ -24,6 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         components = New ComponentModel.Container()
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As ComponentModel.ComponentResourceManager = New ComponentModel.ComponentResourceManager(GetType(Form1))
         Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(components)
         Guna2CirclePictureBox1 = New Guna.UI2.WinForms.Guna2CirclePictureBox()
         CType(Guna2CirclePictureBox1, ComponentModel.ISupportInitialize).BeginInit()
@@ -35,12 +36,16 @@ Partial Class Form1
         ' 
         ' Guna2CirclePictureBox1
         ' 
+        Guna2CirclePictureBox1.BackColor = Color.Transparent
+        Guna2CirclePictureBox1.BackgroundImage = CType(resources.GetObject("Guna2CirclePictureBox1.BackgroundImage"), Image)
+        Guna2CirclePictureBox1.BackgroundImageLayout = ImageLayout.Stretch
+        Guna2CirclePictureBox1.FillColor = Color.Transparent
         Guna2CirclePictureBox1.ImageRotate = 0F
-        Guna2CirclePictureBox1.Location = New Point(353, 37)
+        Guna2CirclePictureBox1.Location = New Point(80, 28)
         Guna2CirclePictureBox1.Name = "Guna2CirclePictureBox1"
         Guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges1
         Guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle
-        Guna2CirclePictureBox1.Size = New Size(86, 83)
+        Guna2CirclePictureBox1.Size = New Size(60, 60)
         Guna2CirclePictureBox1.TabIndex = 0
         Guna2CirclePictureBox1.TabStop = False
         ' 
@@ -49,6 +54,7 @@ Partial Class Form1
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(64), CByte(64), CByte(64))
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         ClientSize = New Size(800, 450)
         Controls.Add(Guna2CirclePictureBox1)
         FormBorderStyle = FormBorderStyle.None
