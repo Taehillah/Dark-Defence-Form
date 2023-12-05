@@ -60,9 +60,9 @@ Partial Class Form1
         saafLogo.BackgroundImage = CType(resources.GetObject("saafLogo.BackgroundImage"), Image)
         saafLogo.BackgroundImageLayout = ImageLayout.Stretch
         saafLogo.InitialImage = Nothing
-        saafLogo.Location = New Point(360, 23)
+        saafLogo.Location = New Point(371, 21)
         saafLogo.Name = "saafLogo"
-        saafLogo.Size = New Size(60, 60)
+        saafLogo.Size = New Size(50, 50)
         saafLogo.TabIndex = 0
         saafLogo.TabStop = False
         ' 
@@ -70,7 +70,7 @@ Partial Class Form1
         ' 
         LogoLabel.AutoSize = True
         LogoLabel.Font = New Font("Baskerville Old Face", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        LogoLabel.Location = New Point(256, 95)
+        LogoLabel.Location = New Point(256, 85)
         LogoLabel.Name = "LogoLabel"
         LogoLabel.Size = New Size(271, 16)
         LogoLabel.TabIndex = 2
@@ -83,7 +83,7 @@ Partial Class Form1
         Line.BorderThickness = 0
         Line.FillColor = Color.FromArgb(CByte(16), CByte(168), CByte(246))
         Line.LineThickness = 1
-        Line.Location = New Point(219, 114)
+        Line.Location = New Point(219, 104)
         Line.Name = "Line"
         Line.PolygonSides = 2
         Line.PolygonSkip = 1
@@ -100,7 +100,7 @@ Partial Class Form1
         ' 
         lblForceNo.AutoSize = True
         lblForceNo.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblForceNo.Location = New Point(121, 149)
+        lblForceNo.Location = New Point(121, 139)
         lblForceNo.Name = "lblForceNo"
         lblForceNo.Size = New Size(77, 14)
         lblForceNo.TabIndex = 4
@@ -118,7 +118,7 @@ Partial Class Form1
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(121, 166)
+        Guna2TextBox1.Location = New Point(121, 156)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
@@ -131,7 +131,7 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(121, 203)
+        Label1.Location = New Point(121, 193)
         Label1.Name = "Label1"
         Label1.Size = New Size(32, 14)
         Label1.TabIndex = 6
@@ -149,7 +149,7 @@ Partial Class Form1
         Guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox2.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(121, 220)
+        Guna2TextBox2.Location = New Point(121, 210)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderText = ""
@@ -170,7 +170,7 @@ Partial Class Form1
         Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(121, 280)
+        Guna2TextBox3.Location = New Point(121, 270)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
@@ -183,7 +183,7 @@ Partial Class Form1
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(121, 263)
+        Label2.Location = New Point(121, 253)
         Label2.Name = "Label2"
         Label2.Size = New Size(62, 14)
         Label2.TabIndex = 8
@@ -201,7 +201,7 @@ Partial Class Form1
         Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(121, 338)
+        Guna2TextBox4.Location = New Point(121, 328)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PasswordChar = ChrW(0)
         Guna2TextBox4.PlaceholderText = ""
@@ -214,7 +214,7 @@ Partial Class Form1
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label3.Location = New Point(121, 321)
+        Label3.Location = New Point(121, 311)
         Label3.Name = "Label3"
         Label3.Size = New Size(67, 14)
         Label3.TabIndex = 10
@@ -229,11 +229,11 @@ Partial Class Form1
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button1.Font = New Font("Tahoma", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(284, 386)
+        Guna2Button1.Location = New Point(317, 386)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.BorderRadius = 20
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button1.Size = New Size(180, 33)
+        Guna2Button1.Size = New Size(150, 25)
         Guna2Button1.TabIndex = 12
         Guna2Button1.Text = "NEXT"
         ' 
