@@ -280,9 +280,9 @@ Partial Class Form1
         Label4.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label4.Location = New Point(452, 311)
         Label4.Name = "Label4"
-        Label4.Size = New Size(67, 14)
+        Label4.Size = New Size(89, 14)
         Label4.TabIndex = 19
-        Label4.Text = "Unit(Home)"
+        Label4.Text = "Unit(Destination)"
         ' 
         ' Guna2TextBox6
         ' 
@@ -311,9 +311,9 @@ Partial Class Form1
         lblDate.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblDate.Location = New Point(452, 253)
         lblDate.Name = "lblDate"
-        lblDate.Size = New Size(62, 14)
+        lblDate.Size = New Size(69, 14)
         lblDate.TabIndex = 17
-        lblDate.Text = "Full Names"
+        lblDate.Text = "Date(Return)"
         ' 
         ' Guna2TextBox7
         ' 
@@ -342,9 +342,9 @@ Partial Class Form1
         lblAuthority.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblAuthority.Location = New Point(452, 193)
         lblAuthority.Name = "lblAuthority"
-        lblAuthority.Size = New Size(32, 14)
+        lblAuthority.Size = New Size(69, 14)
         lblAuthority.TabIndex = 15
-        lblAuthority.Text = "Rank"
+        lblAuthority.Text = "Authority No"
         ' 
         ' Guna2TextBox8
         ' 
@@ -373,9 +373,9 @@ Partial Class Form1
         lblClearing.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblClearing.Location = New Point(452, 139)
         lblClearing.Name = "lblClearing"
-        lblClearing.Size = New Size(84, 14)
+        lblClearing.Size = New Size(82, 14)
         lblClearing.TabIndex = 13
-        lblClearing.Text = "Clearing In|Out"
+        lblClearing.Text = "Clearing In/Out"
         ' 
         ' Form1
         ' 
