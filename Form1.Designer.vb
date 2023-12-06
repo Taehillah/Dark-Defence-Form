@@ -64,7 +64,9 @@ Partial Class Form1
         lblAuthority = New Label()
         Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
         lblClearing = New Label()
+        PictureBox1 = New PictureBox()
         CType(saafLogo, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -265,7 +267,7 @@ Partial Class Form1
         Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(452, 328)
+        Guna2TextBox5.Location = New Point(475, 328)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PasswordChar = ChrW(0)
         Guna2TextBox5.PlaceholderText = ""
@@ -278,7 +280,7 @@ Partial Class Form1
         ' 
         Label4.AutoSize = True
         Label4.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label4.Location = New Point(452, 311)
+        Label4.Location = New Point(475, 311)
         Label4.Name = "Label4"
         Label4.Size = New Size(89, 14)
         Label4.TabIndex = 19
@@ -296,7 +298,7 @@ Partial Class Form1
         Guna2TextBox6.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox6.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Location = New Point(452, 270)
+        Guna2TextBox6.Location = New Point(475, 270)
         Guna2TextBox6.Name = "Guna2TextBox6"
         Guna2TextBox6.PasswordChar = ChrW(0)
         Guna2TextBox6.PlaceholderText = ""
@@ -309,7 +311,7 @@ Partial Class Form1
         ' 
         lblDate.AutoSize = True
         lblDate.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblDate.Location = New Point(452, 253)
+        lblDate.Location = New Point(475, 253)
         lblDate.Name = "lblDate"
         lblDate.Size = New Size(69, 14)
         lblDate.TabIndex = 17
@@ -327,7 +329,7 @@ Partial Class Form1
         Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Location = New Point(452, 210)
+        Guna2TextBox7.Location = New Point(475, 210)
         Guna2TextBox7.Name = "Guna2TextBox7"
         Guna2TextBox7.PasswordChar = ChrW(0)
         Guna2TextBox7.PlaceholderText = ""
@@ -340,7 +342,7 @@ Partial Class Form1
         ' 
         lblAuthority.AutoSize = True
         lblAuthority.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblAuthority.Location = New Point(452, 193)
+        lblAuthority.Location = New Point(475, 193)
         lblAuthority.Name = "lblAuthority"
         lblAuthority.Size = New Size(69, 14)
         lblAuthority.TabIndex = 15
@@ -358,7 +360,7 @@ Partial Class Form1
         Guna2TextBox8.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox8.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox8.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox8.Location = New Point(452, 156)
+        Guna2TextBox8.Location = New Point(475, 156)
         Guna2TextBox8.Name = "Guna2TextBox8"
         Guna2TextBox8.PasswordChar = ChrW(0)
         Guna2TextBox8.PlaceholderText = ""
@@ -371,11 +373,21 @@ Partial Class Form1
         ' 
         lblClearing.AutoSize = True
         lblClearing.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblClearing.Location = New Point(452, 139)
+        lblClearing.Location = New Point(475, 139)
         lblClearing.Name = "lblClearing"
         lblClearing.Size = New Size(82, 14)
         lblClearing.TabIndex = 13
         lblClearing.Text = "Clearing In/Out"
+        ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(399, 186)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(404, 267)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 21
+        PictureBox1.TabStop = False
         ' 
         ' Form1
         ' 
@@ -403,11 +415,13 @@ Partial Class Form1
         Controls.Add(LogoLabel)
         Controls.Add(saafLogo)
         Controls.Add(Line)
+        Controls.Add(PictureBox1)
         ForeColor = Color.Transparent
         FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
         Text = "Form1"
         CType(saafLogo, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -433,4 +447,5 @@ Partial Class Form1
     Friend WithEvents lblAuthority As Label
     Friend WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents lblClearing As Label
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
