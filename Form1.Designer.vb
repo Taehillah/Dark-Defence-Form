@@ -91,10 +91,10 @@ Partial Class Form1
         ' LogoLabel
         ' 
         LogoLabel.AutoSize = True
-        LogoLabel.Font = New Font("Baskerville Old Face", 10F, FontStyle.Regular, GraphicsUnit.Point)
+        LogoLabel.Font = New Font("Yu Gothic", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
         LogoLabel.Location = New Point(254, 93)
         LogoLabel.Name = "LogoLabel"
-        LogoLabel.Size = New Size(271, 16)
+        LogoLabel.Size = New Size(278, 17)
         LogoLabel.TabIndex = 2
         LogoLabel.Text = "South African Air Force Clearing In|Out Form"
         ' 
@@ -105,14 +105,14 @@ Partial Class Form1
         Line.BorderThickness = 0
         Line.FillColor = Color.FromArgb(CByte(16), CByte(168), CByte(246))
         Line.LineThickness = 1
-        Line.Location = New Point(219, 115)
+        Line.Location = New Point(219, 106)
         Line.Name = "Line"
         Line.PolygonSides = 2
         Line.PolygonSkip = 1
         Line.Rotate = 0F
         Line.RoundedEdges = CustomizableEdges15
         Line.Shape = Guna.UI2.WinForms.Enums.ShapeType.Line
-        Line.Size = New Size(345, 1)
+        Line.Size = New Size(347, 10)
         Line.TabIndex = 3
         Line.Text = "Guna2Shapes1"
         Line.UseTransparentBackground = True
@@ -121,10 +121,10 @@ Partial Class Form1
         ' lblForceNo
         ' 
         lblForceNo.AutoSize = True
-        lblForceNo.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblForceNo.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblForceNo.Location = New Point(121, 153)
         lblForceNo.Name = "lblForceNo"
-        lblForceNo.Size = New Size(77, 14)
+        lblForceNo.Size = New Size(84, 16)
         lblForceNo.TabIndex = 4
         lblForceNo.Text = "Force Number"
         ' 
@@ -153,10 +153,10 @@ Partial Class Form1
         ' Label1
         ' 
         Label1.AutoSize = True
-        Label1.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label1.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label1.Location = New Point(121, 204)
         Label1.Name = "Label1"
-        Label1.Size = New Size(32, 14)
+        Label1.Size = New Size(35, 16)
         Label1.TabIndex = 6
         Label1.Text = "Rank"
         ' 
@@ -184,10 +184,10 @@ Partial Class Form1
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label2.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label2.Location = New Point(121, 259)
         Label2.Name = "Label2"
-        Label2.Size = New Size(62, 14)
+        Label2.Size = New Size(68, 16)
         Label2.TabIndex = 8
         Label2.Text = "Full Names"
         ' 
@@ -215,10 +215,10 @@ Partial Class Form1
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label3.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label3.Location = New Point(121, 311)
         Label3.Name = "Label3"
-        Label3.Size = New Size(67, 14)
+        Label3.Size = New Size(73, 16)
         Label3.TabIndex = 10
         Label3.Text = "Unit(Home)"
         ' 
@@ -263,20 +263,20 @@ Partial Class Form1
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Label4.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Label4.Location = New Point(475, 311)
         Label4.Name = "Label4"
-        Label4.Size = New Size(89, 14)
+        Label4.Size = New Size(104, 16)
         Label4.TabIndex = 19
         Label4.Text = "Unit(Destination)"
         ' 
         ' lblDate
         ' 
         lblDate.AutoSize = True
-        lblDate.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblDate.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblDate.Location = New Point(475, 259)
         lblDate.Name = "lblDate"
-        lblDate.Size = New Size(69, 14)
+        lblDate.Size = New Size(81, 16)
         lblDate.TabIndex = 17
         lblDate.Text = "Date(Return)"
         ' 
@@ -304,20 +304,20 @@ Partial Class Form1
         ' lblAuthority
         ' 
         lblAuthority.AutoSize = True
-        lblAuthority.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblAuthority.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblAuthority.Location = New Point(475, 153)
         lblAuthority.Name = "lblAuthority"
-        lblAuthority.Size = New Size(69, 14)
+        lblAuthority.Size = New Size(76, 16)
         lblAuthority.TabIndex = 15
         lblAuthority.Text = "Authority No"
         ' 
         ' lblClearing
         ' 
         lblClearing.AutoSize = True
-        lblClearing.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        lblClearing.Font = New Font("Yu Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point)
         lblClearing.Location = New Point(475, 204)
         lblClearing.Name = "lblClearing"
-        lblClearing.Size = New Size(82, 14)
+        lblClearing.Size = New Size(93, 16)
         lblClearing.TabIndex = 13
         lblClearing.Text = "Clearing In/Out"
         ' 
