@@ -362,9 +362,14 @@ Partial Class Form1
         gdtpReturnDate.TabIndex = 25
         gdtpReturnDate.Value = New Date(2023, 12, 6, 19, 24, 10, 873)
         ' 
+        ' Guna2ShadowForm1
+        ' 
+        Guna2ShadowForm1.TargetForm = Me
+        ' 
         ' Guna2DragControl1
         ' 
         Guna2DragControl1.DockIndicatorTransparencyValue = 0.6R
+        Guna2DragControl1.TargetControl = Me
         Guna2DragControl1.UseTransparentDrag = True
         ' 
         ' Form1
