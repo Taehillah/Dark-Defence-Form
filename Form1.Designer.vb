@@ -65,6 +65,7 @@ Partial Class Form1
         Guna2TextBox8 = New Guna.UI2.WinForms.Guna2TextBox()
         lblClearing = New Label()
         PictureBox1 = New PictureBox()
+        ComboBox1 = New ComboBox()
         CType(saafLogo, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
@@ -273,7 +274,7 @@ Partial Class Form1
         Guna2TextBox5.PlaceholderText = ""
         Guna2TextBox5.SelectedText = ""
         Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox5.Size = New Size(200, 24)
+        Guna2TextBox5.Size = New Size(200, 23)
         Guna2TextBox5.TabIndex = 20
         ' 
         ' Label4
@@ -304,7 +305,7 @@ Partial Class Form1
         Guna2TextBox6.PlaceholderText = ""
         Guna2TextBox6.SelectedText = ""
         Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2TextBox6.Size = New Size(200, 24)
+        Guna2TextBox6.Size = New Size(200, 23)
         Guna2TextBox6.TabIndex = 18
         ' 
         ' lblDate
@@ -335,7 +336,7 @@ Partial Class Form1
         Guna2TextBox7.PlaceholderText = ""
         Guna2TextBox7.SelectedText = ""
         Guna2TextBox7.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2TextBox7.Size = New Size(200, 24)
+        Guna2TextBox7.Size = New Size(200, 23)
         Guna2TextBox7.TabIndex = 16
         ' 
         ' lblAuthority
@@ -366,7 +367,7 @@ Partial Class Form1
         Guna2TextBox8.PlaceholderText = ""
         Guna2TextBox8.SelectedText = ""
         Guna2TextBox8.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox8.Size = New Size(200, 24)
+        Guna2TextBox8.Size = New Size(200, 23)
         Guna2TextBox8.TabIndex = 14
         ' 
         ' lblClearing
@@ -389,12 +390,21 @@ Partial Class Form1
         PictureBox1.TabIndex = 21
         PictureBox1.TabStop = False
         ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(543, 82)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(200, 23)
+        ComboBox1.TabIndex = 22
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         ClientSize = New Size(800, 450)
+        Controls.Add(ComboBox1)
         Controls.Add(Guna2TextBox5)
         Controls.Add(Label4)
         Controls.Add(Guna2TextBox6)
@@ -448,4 +458,5 @@ Partial Class Form1
     Friend WithEvents Guna2TextBox8 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents lblClearing As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ComboBox1 As ComboBox
 End Class
