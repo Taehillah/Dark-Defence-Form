@@ -171,6 +171,7 @@ Partial Class Form1
         Guna2TextBox3.FillColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox3.ForeColor = SystemColors.Window
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Location = New Point(121, 276)
         Guna2TextBox3.Name = "Guna2TextBox3"
@@ -202,6 +203,7 @@ Partial Class Form1
         Guna2TextBox4.FillColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox4.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox4.ForeColor = SystemColors.Window
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox4.Location = New Point(121, 328)
         Guna2TextBox4.Name = "Guna2TextBox4"
@@ -250,6 +252,7 @@ Partial Class Form1
         Guna2TextBox5.FillColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox5.ForeColor = SystemColors.Window
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.Location = New Point(475, 328)
         Guna2TextBox5.Name = "Guna2TextBox5"
@@ -291,6 +294,7 @@ Partial Class Form1
         Guna2TextBox7.FillColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox7.ForeColor = SystemColors.Window
         Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox7.Location = New Point(475, 170)
         Guna2TextBox7.Name = "Guna2TextBox7"
