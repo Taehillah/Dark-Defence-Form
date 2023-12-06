@@ -336,6 +336,7 @@ Partial Class Form1
         ' cbRank
         ' 
         cbRank.BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
+        cbRank.ForeColor = SystemColors.Window
         cbRank.FormattingEnabled = True
         cbRank.Items.AddRange(New Object() {"Pte", "L/Cpl ", "Cpl ", "Sgt ", "S/Sgt", "WO2", "WO1", "SWO", "MWO", "CWO", "SCWO", "MCWO", "Chaplain", "CO", "2Lt ", "Lt ", "Capt", "Maj", "Lt Col", "Col", "Brig Gen", "Maj Gen", "Lt Gen", "Gen"})
         cbRank.Location = New Point(121, 210)
