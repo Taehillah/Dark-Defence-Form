@@ -82,7 +82,7 @@ Partial Class Form1
         saafLogo.BackgroundImage = CType(resources.GetObject("saafLogo.BackgroundImage"), Image)
         saafLogo.BackgroundImageLayout = ImageLayout.Stretch
         saafLogo.InitialImage = Nothing
-        saafLogo.Location = New Point(371, 21)
+        saafLogo.Location = New Point(372, 34)
         saafLogo.Name = "saafLogo"
         saafLogo.Size = New Size(50, 50)
         saafLogo.TabIndex = 0
@@ -92,7 +92,7 @@ Partial Class Form1
         ' 
         LogoLabel.AutoSize = True
         LogoLabel.Font = New Font("Baskerville Old Face", 10F, FontStyle.Regular, GraphicsUnit.Point)
-        LogoLabel.Location = New Point(256, 85)
+        LogoLabel.Location = New Point(254, 93)
         LogoLabel.Name = "LogoLabel"
         LogoLabel.Size = New Size(271, 16)
         LogoLabel.TabIndex = 2
@@ -105,7 +105,7 @@ Partial Class Form1
         Line.BorderThickness = 0
         Line.FillColor = Color.FromArgb(CByte(16), CByte(168), CByte(246))
         Line.LineThickness = 1
-        Line.Location = New Point(219, 104)
+        Line.Location = New Point(219, 115)
         Line.Name = "Line"
         Line.PolygonSides = 2
         Line.PolygonSkip = 1
@@ -122,7 +122,7 @@ Partial Class Form1
         ' 
         lblForceNo.AutoSize = True
         lblForceNo.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblForceNo.Location = New Point(121, 139)
+        lblForceNo.Location = New Point(121, 153)
         lblForceNo.Name = "lblForceNo"
         lblForceNo.Size = New Size(77, 14)
         lblForceNo.TabIndex = 4
@@ -141,7 +141,7 @@ Partial Class Form1
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox1.ForeColor = SystemColors.Window
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(121, 156)
+        Guna2TextBox1.Location = New Point(121, 170)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderText = ""
@@ -154,7 +154,7 @@ Partial Class Form1
         ' 
         Label1.AutoSize = True
         Label1.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label1.Location = New Point(121, 193)
+        Label1.Location = New Point(121, 204)
         Label1.Name = "Label1"
         Label1.Size = New Size(32, 14)
         Label1.TabIndex = 6
@@ -172,7 +172,7 @@ Partial Class Form1
         Guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox3.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(121, 270)
+        Guna2TextBox3.Location = New Point(121, 276)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
@@ -185,7 +185,7 @@ Partial Class Form1
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(121, 253)
+        Label2.Location = New Point(121, 259)
         Label2.Name = "Label2"
         Label2.Size = New Size(62, 14)
         Label2.TabIndex = 8
@@ -274,7 +274,7 @@ Partial Class Form1
         ' 
         lblDate.AutoSize = True
         lblDate.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblDate.Location = New Point(475, 253)
+        lblDate.Location = New Point(475, 259)
         lblDate.Name = "lblDate"
         lblDate.Size = New Size(69, 14)
         lblDate.TabIndex = 17
@@ -292,7 +292,7 @@ Partial Class Form1
         Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Location = New Point(475, 156)
+        Guna2TextBox7.Location = New Point(475, 170)
         Guna2TextBox7.Name = "Guna2TextBox7"
         Guna2TextBox7.PasswordChar = ChrW(0)
         Guna2TextBox7.PlaceholderText = ""
@@ -305,7 +305,7 @@ Partial Class Form1
         ' 
         lblAuthority.AutoSize = True
         lblAuthority.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblAuthority.Location = New Point(475, 139)
+        lblAuthority.Location = New Point(475, 153)
         lblAuthority.Name = "lblAuthority"
         lblAuthority.Size = New Size(69, 14)
         lblAuthority.TabIndex = 15
@@ -315,7 +315,7 @@ Partial Class Form1
         ' 
         lblClearing.AutoSize = True
         lblClearing.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblClearing.Location = New Point(475, 193)
+        lblClearing.Location = New Point(475, 204)
         lblClearing.Name = "lblClearing"
         lblClearing.Size = New Size(82, 14)
         lblClearing.TabIndex = 13
@@ -335,7 +335,7 @@ Partial Class Form1
         ' 
         ComboBox1.BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(475, 210)
+        ComboBox1.Location = New Point(475, 221)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(200, 23)
         ComboBox1.TabIndex = 22
@@ -346,7 +346,7 @@ Partial Class Form1
         cbRank.ForeColor = SystemColors.Window
         cbRank.FormattingEnabled = True
         cbRank.Items.AddRange(New Object() {"Pte", "L/Cpl ", "Cpl ", "Sgt ", "S/Sgt", "WO2", "WO1", "SWO", "MWO", "CWO", "SCWO", "MCWO", "Chaplain", "CO", "2Lt ", "Lt ", "Capt", "Maj", "Lt Col", "Col", "Brig Gen", "Maj Gen", "Lt Gen", "Gen"})
-        cbRank.Location = New Point(121, 210)
+        cbRank.Location = New Point(121, 221)
         cbRank.Name = "cbRank"
         cbRank.Size = New Size(200, 23)
         cbRank.TabIndex = 23
@@ -361,7 +361,7 @@ Partial Class Form1
         gdtpReturnDate.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         gdtpReturnDate.ForeColor = Color.White
         gdtpReturnDate.Format = DateTimePickerFormat.Long
-        gdtpReturnDate.Location = New Point(475, 270)
+        gdtpReturnDate.Location = New Point(475, 276)
         gdtpReturnDate.MaxDate = New Date(9998, 12, 31, 0, 0, 0, 0)
         gdtpReturnDate.MinDate = New Date(1753, 1, 1, 0, 0, 0, 0)
         gdtpReturnDate.Name = "gdtpReturnDate"
@@ -383,7 +383,7 @@ Partial Class Form1
         ' PictureBox2
         ' 
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(19, 15)
+        PictureBox2.Location = New Point(760, 12)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(16, 14)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
@@ -393,7 +393,7 @@ Partial Class Form1
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(41, 15)
+        PictureBox3.Location = New Point(738, 12)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(16, 14)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
@@ -403,7 +403,7 @@ Partial Class Form1
         ' PictureBox4
         ' 
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(63, 15)
+        PictureBox4.Location = New Point(716, 12)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(16, 14)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
