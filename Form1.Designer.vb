@@ -335,6 +335,7 @@ Partial Class Form1
         ' 
         ComboBox1.BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         ComboBox1.FormattingEnabled = True
+        ComboBox1.Items.AddRange(New Object() {"In", "Out"})
         ComboBox1.Location = New Point(475, 221)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(200, 23)
