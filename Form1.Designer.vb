@@ -66,11 +66,13 @@ Partial Class Form1
         PictureBox2 = New PictureBox()
         PictureBox3 = New PictureBox()
         PictureBox4 = New PictureBox()
+        PictureBox5 = New PictureBox()
         CType(saafLogo, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Guna2Elipse1
@@ -328,7 +330,7 @@ Partial Class Form1
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(399, 186)
+        PictureBox1.Location = New Point(514, 184)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(404, 267)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -416,6 +418,16 @@ Partial Class Form1
         PictureBox4.TabIndex = 28
         PictureBox4.TabStop = False
         ' 
+        ' PictureBox5
+        ' 
+        PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
+        PictureBox5.Location = New Point(-98, 184)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New Size(404, 267)
+        PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox5.TabIndex = 29
+        PictureBox5.TabStop = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -446,6 +458,7 @@ Partial Class Form1
         Controls.Add(lblClearing)
         Controls.Add(ComboBox1)
         Controls.Add(PictureBox1)
+        Controls.Add(PictureBox5)
         ForeColor = Color.Transparent
         FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
@@ -455,6 +468,7 @@ Partial Class Form1
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox4, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -488,4 +502,5 @@ Partial Class Form1
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
 End Class
