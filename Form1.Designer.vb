@@ -281,7 +281,7 @@ Partial Class Form1
         Guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox7.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
         Guna2TextBox7.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox7.Location = New Point(475, 210)
+        Guna2TextBox7.Location = New Point(475, 156)
         Guna2TextBox7.Name = "Guna2TextBox7"
         Guna2TextBox7.PasswordChar = ChrW(0)
         Guna2TextBox7.PlaceholderText = ""
@@ -294,7 +294,7 @@ Partial Class Form1
         ' 
         lblAuthority.AutoSize = True
         lblAuthority.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblAuthority.Location = New Point(475, 193)
+        lblAuthority.Location = New Point(475, 139)
         lblAuthority.Name = "lblAuthority"
         lblAuthority.Size = New Size(69, 14)
         lblAuthority.TabIndex = 15
@@ -304,7 +304,7 @@ Partial Class Form1
         ' 
         lblClearing.AutoSize = True
         lblClearing.Font = New Font("Baskerville Old Face", 9F, FontStyle.Regular, GraphicsUnit.Point)
-        lblClearing.Location = New Point(475, 139)
+        lblClearing.Location = New Point(475, 193)
         lblClearing.Name = "lblClearing"
         lblClearing.Size = New Size(82, 14)
         lblClearing.TabIndex = 13
@@ -324,7 +324,7 @@ Partial Class Form1
         ' 
         ComboBox1.BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(475, 156)
+        ComboBox1.Location = New Point(475, 210)
         ComboBox1.Name = "ComboBox1"
         ComboBox1.Size = New Size(200, 23)
         ComboBox1.TabIndex = 22
@@ -340,6 +340,7 @@ Partial Class Form1
         ' 
         ' dtpReturnDate
         ' 
+        dtpReturnDate.CalendarMonthBackground = Color.Transparent
         dtpReturnDate.Location = New Point(475, 270)
         dtpReturnDate.Name = "dtpReturnDate"
         dtpReturnDate.Size = New Size(200, 23)
@@ -357,7 +358,6 @@ Partial Class Form1
         Controls.Add(lblDate)
         Controls.Add(Guna2TextBox7)
         Controls.Add(lblAuthority)
-        Controls.Add(lblClearing)
         Controls.Add(Guna2Button1)
         Controls.Add(Guna2TextBox4)
         Controls.Add(Label3)
@@ -369,9 +369,10 @@ Partial Class Form1
         Controls.Add(LogoLabel)
         Controls.Add(saafLogo)
         Controls.Add(Line)
-        Controls.Add(PictureBox1)
-        Controls.Add(ComboBox1)
         Controls.Add(ComboBox2)
+        Controls.Add(lblClearing)
+        Controls.Add(ComboBox1)
+        Controls.Add(PictureBox1)
         ForeColor = Color.Transparent
         FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
