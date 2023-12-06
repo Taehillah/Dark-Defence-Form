@@ -334,6 +334,7 @@ Partial Class Form1
         ' ComboBox1
         ' 
         ComboBox1.BackColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
+        ComboBox1.ForeColor = SystemColors.Window
         ComboBox1.FormattingEnabled = True
         ComboBox1.Items.AddRange(New Object() {"In", "Out"})
         ComboBox1.Location = New Point(475, 221)
@@ -394,7 +395,7 @@ Partial Class Form1
         ' PictureBox3
         ' 
         PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
-        PictureBox3.Location = New Point(738, 12)
+        PictureBox3.Location = New Point(733, 12)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(16, 14)
         PictureBox3.SizeMode = PictureBoxSizeMode.StretchImage
@@ -404,7 +405,7 @@ Partial Class Form1
         ' PictureBox4
         ' 
         PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
-        PictureBox4.Location = New Point(716, 12)
+        PictureBox4.Location = New Point(706, 12)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(16, 14)
         PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage
