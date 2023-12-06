@@ -133,6 +133,7 @@ Partial Class Form1
         Guna2TextBox1.FillColor = Color.FromArgb(CByte(34), CByte(37), CByte(46))
         Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point)
+        Guna2TextBox1.ForeColor = SystemColors.Window
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox1.Location = New Point(121, 156)
         Guna2TextBox1.Name = "Guna2TextBox1"
