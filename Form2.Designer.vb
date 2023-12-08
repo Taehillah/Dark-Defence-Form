@@ -51,7 +51,7 @@ Partial Class Form2
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
         Guna2Button1.Size = New Size(150, 25)
         Guna2Button1.TabIndex = 13
-        Guna2Button1.Text = "NEXT"
+        Guna2Button1.Text = "BACK"
         ' 
         ' Form2
         ' 
@@ -62,6 +62,7 @@ Partial Class Form2
         Controls.Add(Guna2Button1)
         FormBorderStyle = FormBorderStyle.None
         Name = "Form2"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form2"
         ResumeLayout(False)
     End Sub
