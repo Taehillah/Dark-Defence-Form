@@ -462,6 +462,7 @@ Partial Class Form1
         ForeColor = Color.Transparent
         FormBorderStyle = FormBorderStyle.None
         Name = "Form1"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         CType(saafLogo, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
